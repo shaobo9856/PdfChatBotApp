@@ -4,7 +4,7 @@ This is a simple example that develops a PDF Chatbot application with Streamlit 
 
 
 
-docker build -t app .
+docker build -t pdfbot .
 
-docker run --name appcontainer app
+docker run --name pdfbotcontainer pdfbot
 

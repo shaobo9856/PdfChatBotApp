@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 
 # 设置容器启动命令
-CMD ["python", "app.py"]
+CMD ["streamlit", "run", "app.py"]
